@@ -19,12 +19,14 @@
 #
 # print_even(a)
 
-list1 = [0, 1, 2, 3]
-list2 = ['libi', 'bilii', 'liwei', 'aini']
-#双巡回推导式
-dict_list = {x: y for x in list1 for y in list2}
-print(dict_list)
-#{0: 'aini', 1: 'aini', 2: 'aini', 3: 'aini'}
+# list1 = [0, 1, 2, 3]
+# list2 = ['libi', 'bilii', 'liwei', 'aini']
+# #双巡回推导式
+# dict_list = {x: y for x in list1 for y in list2}
+# print(dict_list)
+# #{0: 'aini', 1: 'aini', 2: 'aini', 3: 'aini'}
 
+def myadd(a, b, c=0, d=0):
+    print(a + b + c + d)
 
-
+myadd(2, 8)
