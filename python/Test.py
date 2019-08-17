@@ -26,7 +26,15 @@
 # print(dict_list)
 # #{0: 'aini', 1: 'aini', 2: 'aini', 3: 'aini'}
 
-def myadd(a, b, c=0, d=0):
-    print(a + b + c + d)
+# def myadd(a, b, c=0, d=0):
+#     print(a + b + c + d)
+#
+# myadd(2, 8)
 
-myadd(2, 8)
+# def mysum(*args):
+#     return sum(args)
+#
+#
+# print(mysum(1, 2, 3, 4, 5))
+# ----------------------------------------------------------
+
