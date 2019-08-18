@@ -141,3 +141,51 @@
 # print(mysum(10))
 # print(myfuc(4))
 # print(myfun(4))
+
+
+# a = 0
+#
+#
+# def powsum(x):
+#     global a
+#     for i in range(0, x + 1):
+#         a += pow(i, 2)
+#     return a
+#
+#
+# powsum(9)
+# print(a)
+#
+# b = 0
+#
+#
+# def powsum2(x):
+#     global b
+#     for i in range(0, x + 1):
+#         b += pow(i, 3)
+#     return b
+#
+#
+# powsum(9)
+# powsum2(9)
+# print(b)
+#
+# c = 0
+#
+#
+# def powsum3(x):
+#     global c
+#     for i in map(pow, range(1, x + 1), range(x, 0, -1)):
+#         c += i
+#     return c
+#
+#
+# powsum3(9)
+# print(c)
+
+
+
+
+
+
+
