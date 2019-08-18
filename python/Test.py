@@ -104,3 +104,40 @@
 # ces(10, 5)
 # print(a)
 # print(b)
+
+# fx = lambda n: ((n ** 2) + 1) % 5 == 0
+#
+# print(fx(3))
+# print(fx(4))
+#
+# mymax = lambda x, y: max(x, y)
+#
+# print(mymax(100, 200))
+
+# def mysum(x):
+#     a = 1
+#     for i in range(a, x + 1):
+#         a += i
+#     return a
+#
+#
+# def myfuc(n):
+#     a = 1
+#     for i in range(a, n + 1):
+#         a *= i
+#     return a
+#
+#
+# def myfun(n):
+#     a = 1
+#     if n == 1:
+#         return a
+#     if n > 1:
+#         for i in range(2, n+1):
+#             a = i ** 2 + a
+#         return a
+#
+#
+# print(mysum(10))
+# print(myfuc(4))
+# print(myfun(4))
