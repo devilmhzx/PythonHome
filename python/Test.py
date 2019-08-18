@@ -38,3 +38,53 @@
 # print(mysum(1, 2, 3, 4, 5))
 # ----------------------------------------------------------
 
+
+def isprime(x):
+    if str.isdigit(x):
+        if int(x) % 2 == 0:
+            return False
+        else:
+            return True
+    else:
+        print('输入的%s不是数字' % x)
+
+
+def prime_m2n(m, n):
+    if str.isdigit(m) and str.isdigit(n):
+        r = list()
+        for i in range(int(m), int(n)):
+            if i % 2 == 1:
+                r.append(i)
+        return str(r)
+    else:
+        print('输入的%s不是数字' % n)
+
+
+def primes(n):
+    if str.isdigit(n):
+        return list(range(1, int(n), 2))
+    else:
+        print('输入的%s不是数字' % n)
+
+
+def myrange(a, *args):
+    if not args:
+        print(list(range(a)))
+    elif len(args) == 1:
+        print(list(range(a, args)))
+    elif len(args) == 2:
+        print((list(range(a, args[0], args[1]))))
+    else:
+        print('输入错误!')
+
+
+m = input('请输入一个整数m：')
+if isprime(m):
+    print('这是一个素数！')
+else:
+    print('这不是一个素数')
+print('0到%s' % m + '之间的素数为：' + str(primes(m)))
+n = input('请再输入一个整数n，比之前的大：')
+print('m到n之间的素数为：' + str(prime_m2n(m, n)))
+myrange(3)
+myrange(3,9)
