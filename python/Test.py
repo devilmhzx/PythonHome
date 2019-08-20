@@ -183,9 +183,40 @@
 # powsum3(9)
 # print(c)
 
+# 第归求和
+# def mysum(n):
+#     if n == 1:
+#         return 1
+#     return n + mysum(n-1)
+#
+# print(mysum(100))
 
+# 阶乘计算和
+# def jiechen(n):
+#     if n == 1:
+#         return 1
+#     return n * jiechen(n - 1)
+#
+#
+# m = 0
+# for i in range(1, 4):
+#     m += jiechen(i)
+# print(m)
 
+# L = [[3, 5, 8], 10, [[13, 14], 15, 18], 20]
 
+#print(len(L))
+
+# for i in L:
+#     if type(i) is list:
+#         for x in i:
+#             if type(x) is list:
+#                 for n in x:
+#                     print(n)
+#             else:
+#                 print(x)
+#     else:
+#         print(i)
 
 
 
