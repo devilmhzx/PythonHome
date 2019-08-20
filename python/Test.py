@@ -205,7 +205,7 @@
 
 # L = [[3, 5, 8], 10, [[13, 14], 15, 18], 20]
 
-#print(len(L))
+# print(len(L))
 
 # for i in L:
 #     if type(i) is list:
@@ -217,6 +217,24 @@
 #                 print(x)
 #     else:
 #         print(i)
+
+# def mydeco(fn):
+#     def fx():
+#         print('+++++++++++++++')
+#         fn()
+#         print('---------------')
+#
+#     return fx
+#
+#
+# # 装饰器
+# @mydeco
+# def myfunc():
+#     print('这是一个测试！')
+#
+#
+# myfunc()
+
 
 
 
