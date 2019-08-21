@@ -235,6 +235,25 @@
 #
 # myfunc()
 
+#---------------------------------------------
+# from time import *
+#
+#
+# def myfn(n):
+#     '''
+#     #每隔一秒在屏幕中打印一次，共打印n次
+#     :param n: 打印次数
+#     :return: 返回打印的内容
+#     '''
+#     if n > 0:
+#         print('Hello world')
+#         sleep(1)
+#         myfn(n - 1)
 
+# myfn(3)
 
+# a = myfn
 
+# print(a.__name__)
+# print(myfn.__name__)
+#------------------------------------
