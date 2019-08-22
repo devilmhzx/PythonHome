@@ -235,7 +235,7 @@
 #
 # myfunc()
 
-#---------------------------------------------
+# ---------------------------------------------
 # from time import *
 #
 #
@@ -256,4 +256,39 @@
 
 # print(a.__name__)
 # print(myfn.__name__)
-#------------------------------------
+# ------------------------------------
+# import random
+#
+# x = random.randrange(0, 100)
+# ran_a = 0
+# while True:
+#     y = int(input('请输入一个数字猜猜：'))
+#     if y > x:
+#         print('大了～')
+#         ran_a += 1
+#     elif y < x:
+#         print('小了')
+#         ran_a += 1
+#     else:
+#         print('猜对了！')
+#         ran_a += 1
+#         break
+#
+# print('猜对的次数为：%d' % ran_a)
+
+#使用try判断错误
+# def get_score():
+#     x = 0
+#     s = input('请输入成绩：')
+#     try:
+#         x = int(s)
+#     except ValueError as xxx:
+#         print('输入的成绩有错误！错误代码为：', xxx)
+#     if x in range(100):
+#         return x
+#     else:
+#         return 0
+#
+#
+# score = get_score()
+# print("学生的成就是：", score)
