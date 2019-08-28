@@ -276,7 +276,7 @@
 #
 # print('猜对的次数为：%d' % ran_a)
 
-#使用try判断错误
+# 使用try判断错误
 # def get_score():
 #     x = 0
 #     s = input('请输入成绩：')
@@ -292,3 +292,23 @@
 #
 # score = get_score()
 # print("学生的成就是：", score)
+
+# ----------------文件读取--------------------------------
+# try:
+#     myfile = open('myfile.txt')
+#     while True:
+#         osFile = myfile.readline()
+#
+#         # print(osFile.rstrip(''))
+#         oslist = osFile.rstrip('\n').split(',')
+#         # print(oslist)
+#         if oslist == ['']:
+#             break
+#
+#         print('{}今年{}岁，成绩是：{}'.format(oslist[0], oslist[1], oslist[2]))
+#
+#     myfile.close()
+# except IOError:
+#     print('文件打开失败')
+
+# ----------------------------------------------------------------
